@@ -1,0 +1,137 @@
+hr {
+    background: #edeef2;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+}
+.blog-content {
+    margin-bottom: 50px;
+}
+.media-body .mt-0 {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #4d4f56;
+    margin-bottom: 0px;
+}
+.media-body .mt-1 {
+    color:#9ca2b8;
+    font-weight: 700;
+    margin-top: 0px;
+}
+.blog-content {
+    margin-top: 68px;
+}
+
+.blog-title1
+{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 72px;
+    margin-bottom: 40px;
+    color: #2e3038;
+    height: 100%;
+
+}
+
+
+
+.blog-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 62px;
+    margin-bottom: 40px;
+    color: #2e3038;
+    height: 100%;
+
+}
+
+.blog-subtitle {
+    width: 624px;
+    height: 218px;
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8b92ab;
+    margin-bottom: 30px;
+}
+
+.button {
+    border-radius: 35px;
+    border: 1px solid #06aaca;
+    padding: 18px 50px;
+    text-decoration: none;
+    color: #06aaca;
+    transition: 0.4s;
+    font-size: 24px;
+    width: 180.1px;
+    height: 100%;
+    max-height: 70px;
+
+}
+.button:hover {
+    text-decoration: none;
+    transition: 0.4s;
+    background: #06aaca;
+    color: #fff;
+}
+
+.footer {
+    background: url("../images/pozadina.png") 49% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0 !important;
+    position: relative;
+    width: 100%;
+}
+
+.footer_left {
+    visibility: hidden;
+    transform: translateY(30%);
+    transition: all .4s ease;
+}
+
+.footer_right {
+    visibility: hidden;
+    transform: translateX(30%);
+    transition: all .7s ease;
+}
+
+.footer_container {
+    padding: 20px;
+}
+
+.footer_text {
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 6px;
+    font-family: Roboto-Light;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+.djevojcica{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.djecak img, .djevojcica img{
+    height: 280px;
+}
+.djecak{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.djevojcica img {
+    overflow: hidden !important
+}
