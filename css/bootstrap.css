@@ -4323,7 +4323,7 @@ input[type="button"].btn-block {
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    line-height: 90px;
+    /*line-height: 90px;*/
 }
 
 .navbar .container,
@@ -6774,7 +6774,7 @@ button.bg-dark:focus {
 
 .bg-white {
     background-color: #fff !important;
-    border-bottom: 1px solid #edeef2;
+    /*border-bottom: 1px solid #edeef2;*/
 
 }
 

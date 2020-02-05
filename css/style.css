@@ -13,13 +13,17 @@ hr {
 
 }
 
-.container-fluid {
+div.container-fluid {
     width: 100%;
     padding-right: 15px;
-    padding-left: 30px;
+    padding-left: 7%;
     margin-right: auto;
     margin-left: auto;
 
+}
+
+.nav-item{
+    padding-right: 30px;
 }
 .container-fluid1{
     width: 100%;
@@ -70,6 +74,17 @@ hr {
     color: #2e3038;
     height: 100%;
 
+}
+
+hr.prva{
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.navbar{
+    padding: unset !important;
 }
 
 .blog-subtitle {
