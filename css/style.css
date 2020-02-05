@@ -1,9 +1,32 @@
+
+
+html{
+    overflow-x: hidden;
+}
 hr {
     background: #edeef2;
     display: block;
     clear: both;
     overflow: hidden;
     width: 100%;
+
+
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.container-fluid1{
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .blog-content {
     margin-bottom: 50px;
@@ -18,16 +41,19 @@ hr {
     color:#9ca2b8;
     font-weight: 700;
     margin-top: 0px;
+
 }
 .blog-content {
     margin-top: 68px;
+    margin-left: 80px;
+
 }
 
 .blog-title1
 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    font-size: 72px;
+    font-size: 66px;
     margin-bottom: 40px;
     color: #2e3038;
     height: 100%;
@@ -47,8 +73,7 @@ hr {
 }
 
 .blog-subtitle {
-    width: 624px;
-    height: 218px;
+
     font-family: Muli;
     font-size: 18px;
     font-weight: normal;
@@ -88,6 +113,7 @@ hr {
     margin-left: 0 !important;
     position: relative;
     width: 100%;
+    margin-top: 65.5px;
 }
 
 .footer_left {
@@ -106,11 +132,12 @@ hr {
     padding: 20px;
 }
 
+
 .footer_text {
     text-align: center;
     color: #ffffff;
     padding-bottom: 6px;
-    font-family: Roboto-Light;
+    font-family: Muli;
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
@@ -135,3 +162,175 @@ hr {
 .djevojcica img {
     overflow: hidden !important
 }
+.footer {
+    background: url("../images/Pozadina.png") 49% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0 !important;
+    position: relative;
+    width: 100%;
+}
+
+.footer_left {
+    visibility: hidden;
+    transform: translateY(30%);
+    transition: all .4s ease;
+}
+
+.footer_right {
+    visibility: hidden;
+    transform: translateX(30%);
+    transition: all .7s ease;
+}
+
+.footer_container {
+    padding: 20px 0;
+}
+
+.footer_text {
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 6px;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+#linijaFooter {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.33);;
+}
+
+.djevojcica {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.djecak {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.djecak img {
+    height: 351px;
+}
+
+.djevojcica img {
+    height: 351px;
+    overflow: hidden !important;
+}
+
+.fb{
+    text-align: end;
+}
+.insta{
+    text-align: start;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .blog-title1{
+        font-size: 30px;
+    }
+
+    .blog-title{
+        font-size: 30px;
+    }
+
+    .blog-subtitle{
+        font-size: 13px;
+    }
+    .button{
+        font-size: 11px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .card-title{
+        font-size: 30px;
+    }
+
+    .navbar-nav {
+        height: auto;
+        padding-top: unset;
+    }
+
+    .navbar-nav li{
+        margin-left: unset;
+    }
+
+    .djevojcica img {
+        height: 150px;
+    }
+
+    .djecak img {
+        height: 150px;
+    }
+
+
+
+    .fb{
+        text-align: end;
+        padding-right: 15px;
+    }
+    .insta{
+        text-align: start;
+    }
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 768px) {
+
+    .card-title{
+        font-size: 30px;
+    }
+
+    .navbar-nav {
+        height: auto;
+        padding-top: unset;
+    }
+
+    .navbar-nav li{
+        margin-left: unset;
+    }
+
+    .djevojcica img {
+        height: 200px;
+    }
+
+    .djecak img {
+        height: 200px;
+    }
+
+    .fb{
+        text-align: end;
+    }
+    .insta{
+        text-align: start;
+    }
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 768px) {
+    .fb{
+        text-align: end;
+    }
+    .insta{
+        text-align: start;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 992px) {
+    .fb{
+        text-align: end;
+    }
+    .insta{
+        text-align: start;
+    }
+}
+
+
