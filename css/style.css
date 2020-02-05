@@ -22,6 +22,10 @@ div.container-fluid {
 
 }
 
+.slika {
+    margin-bottom: 20px;
+}
+
 .nav-item{
     padding-right: 30px;
 }
